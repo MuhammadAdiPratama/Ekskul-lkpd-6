@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7dce9">
+  <meta name="description" content="EkskulHub - Temukan minat, kembangkan bakat, dan bergabung dengan ekstrakurikuler SMA 1 Prestasi Bangsa.">
+  <title>EkskulHub | SMA 1 Prestasi Bangsa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css?v=2">
+</head>
+<body>
+  <div class="sakura-layer" id="sakuraLayer" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="EkskulHub beranda">
+        <span class="brand-mark">✿</span><span><b>Ekskul</b><strong>Hub</strong><small>SMA 1 PRESTASI BANGSA</small></span>
+      </a>
+      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Beranda</a><a href="#ekskul">Daftar Ekskul</a><a href="#daftar">Pendaftaran</a>
+        <a href="#kartu">Kartu Anggota</a><a href="#tentang">Tentang</a><a href="#admin">Dashboard Admin</a>
+      </div>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">☾</button>
+        <button class="icon-btn" id="effectsToggle" aria-label="Mode hemat efek" title="Mode hemat efek">✧</button>
+        <a class="btn btn-small btn-primary" href="#daftar">Gabung Sekarang <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="pulse"></span> EXPLORE YOUR PASSION</span>
+        <h1>Temukan Bakatmu,<br><em>Ciptakan Ceritamu.</em></h1>
+        <p class="hero-lead">Satu sekolah, banyak kesempatan. Jelajahi dunia ekstrakurikuler SMA 1 Prestasi Bangsa dan temukan ruang untuk tumbuh, berkarya, serta berprestasi.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#ekskul">Jelajahi Ekskul <span>→</span></a><a class="btn btn-glass" href="#tentang">Kenali EkskulHub</a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>✿</span><span>♫</span><span>⚽</span><span>✦</span></div><div><b>14 pilihan ekstrakurikuler</b><small>Mulai perjalananmu hari ini</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="hero-glass-card">
+          <div class="hero-card-top"><span class="tiny-label">YOUR NEXT CHAPTER</span><span class="sparkle">✦</span></div>
+          <div class="casper-hero" aria-label="Maskot Casper">☁</div>
+          <div class="hero-sticker sticker-one">✿ <small>Grow</small></div><div class="hero-sticker sticker-two">✦ <small>Shine</small></div>
+          <div class="hero-card-bottom"><b>Hai, teman!</b><span>Petualangan serumu dimulai di sini.</span></div>
+        </div>
+        <span class="floating flower flower-a">✿</span><span class="floating flower flower-b">❀</span><span class="floating star star-a">✧</span>
+      </div>
+    </section>
+
+    <section class="stats-strip wrap" aria-label="Statistik EkskulHub">
+      <div><b id="statEkskul">14</b><span>Ekstrakurikuler</span></div><div><b>05</b><span>Kategori pilihan</span></div><div><b id="statAnggota">0</b><span>Anggota terdaftar</span></div><div><b>∞</b><span>Kesempatan berkembang</span></div>
+    </section>
+
+    <section class="section wrap" id="tentang">
+      <div class="section-heading"><span class="eyebrow">KENALI KAMI</span><h2>Lebih dari sekadar<br><em>kegiatan setelah sekolah.</em></h2></div>
+      <div class="about-grid">
+        <div class="about-visual"><div class="about-flower">✿</div><div class="about-note"><b>Learn together.</b><br>Grow together.</div><div class="about-number">01 <small>/ YOUR JOURNEY</small></div></div>
+        <div class="about-copy"><p class="lead">EkskulHub adalah ruang digital untuk mengenal dan mendaftar kegiatan ekstrakurikuler di <b>SMA 1 Prestasi Bangsa</b>.</p><p>Setiap minat punya tempat untuk berkembang. Dari teknologi hingga olahraga, kamu bisa menemukan komunitas yang mendukung rasa ingin tahu, kerja sama, dan keberanian mencoba hal baru.</p><div class="feature-points"><div><span>✦</span><b>Eksplorasi minat</b><small>Kenali kegiatan yang cocok denganmu.</small></div><div><span>♡</span><b>Tumbuh bersama</b><small>Belajar, berlatih, dan saling mendukung.</small></div><div><span>✿</span><b>Raih pengalaman</b><small>Ciptakan cerita dan prestasi baru.</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="ekskul">
+      <div class="wrap">
+        <div class="section-heading center"><span class="eyebrow">FIND YOUR COMMUNITY</span><h2>Pilih ruang untuk <em>bersinar.</em></h2><p>Jelajahi 14 pilihan kegiatan dari lima kategori berbeda.</p></div>
+        <div class="catalog-tools"><label class="search-box"><span>⌕</span><input id="ekskulSearch" type="search" placeholder="Cari ekstrakurikuler..." aria-label="Cari ekstrakurikuler"></label><div class="filter-pills" id="categoryFilters"></div></div>
+        <div class="club-grid" id="clubGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-heading center"><span class="eyebrow">WHY JOIN?</span><h2>Hal kecil yang membawa<br><em>dampak besar.</em></h2></div>
+      <div class="benefit-grid">
+        <article class="benefit-card"><span class="benefit-icon">✧</span><h3>Temukan potensimu</h3><p>Coba hal baru dan kenali kemampuan yang mungkin belum pernah kamu sadari.</p></article>
+        <article class="benefit-card"><span class="benefit-icon">♡</span><h3>Bangun pertemanan</h3><p>Temui teman dengan minat serupa dan belajar bekerja sebagai satu tim.</p></article>
+        <article class="benefit-card"><span class="benefit-icon">✿</span><h3>Tambah pengalaman</h3><p>Latih disiplin, kreativitas, komunikasi, dan rasa tanggung jawab.</p></article>
+        <article class="benefit-card"><span class="benefit-icon">☆</span><h3>Berani berprestasi</h3><p>Ambil kesempatan untuk berkarya, tampil, dan mengikuti kompetisi.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="daftar">
+      <div class="wrap registration-layout">
+        <div class="registration-intro"><span class="eyebrow">LET'S GET STARTED</span><h2>Langkah pertama<br>menuju <em>cerita baru.</em></h2><p>Isi formulir pendaftaran dengan data yang benar. Setelah berhasil, kartu anggota digital akan dibuat untukmu.</p>
+          <ol class="steps"><li><span>01</span><div><b>Isi formulir</b><small>Lengkapi identitas dan pilihan ekskul.</small></div></li><li><span>02</span><div><b>Periksa data</b><small>Pastikan informasi sudah benar.</small></div></li><li><span>03</span><div><b>Dapatkan kartu</b><small>Kartu anggota muncul setelah pendaftaran.</small></div></li></ol>
+          <div class="privacy-note">ⓘ Data disimpan di browser perangkat ini. Ini adalah demo tanpa server sekolah.</div>
+        </div>
+        <form class="form-card" id="registrationForm" novalidate>
+          <div class="form-heading"><div><span class="eyebrow">FORMULIR ONLINE</span><h3>Daftar anggota</h3></div><span class="form-count" id="formProgressText">0% lengkap</span></div>
+          <div class="progress-track"><span id="formProgress"></span></div>
+          <div class="form-grid">
+            <label class="field full">Nama lengkap<input name="name" id="fullName" autocomplete="name" placeholder="Nama sesuai identitas" required><small class="field-error"></small></label>
+            <label class="field">Kelas<select name="className" id="className" required><option value="">Pilih kelas</option><option>X</option><option>XI</option><option>XII</option></select><small class="field-error"></small></label>
+            <label class="field">Ekstrakurikuler<select name="clubId" id="clubSelect" required><option value="">Pilih ekstrakurikuler</option></select><small class="field-error"></small></label>
+            <label class="field full">Email<input name="email" id="email" type="email" autocomplete="email" placeholder="nama@email.com" required><small class="field-error"></small></label>
+            <label class="field full">Nomor WhatsApp<input name="phone" id="phone" type="tel" autocomplete="tel" placeholder="08xxxxxxxxxx" required><small class="field-error"></small></label>
+            <label class="field">Password<input name="password" id="password" type="password" autocomplete="new-password" placeholder="Minimal 8 karakter" required><small class="field-error">Password hanya diperiksa saat pendaftaran dan tidak disimpan.</small></label>
+            <label class="field">Konfirmasi password<input name="confirmPassword" id="confirmPassword" type="password" autocomplete="new-password" placeholder="Ulangi password" required><small class="field-error"></small></label>
+          </div>
+          <div class="form-actions"><button type="button" class="btn btn-text" id="clearDraft">Hapus draf</button><button type="submit" class="btn btn-primary">Kirim pendaftaran <span>→</span></button></div>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section wrap member-section" id="kartu">
+      <div class="section-heading center"><span class="eyebrow">YOUR DIGITAL ID</span><h2>Kartu anggota <em>digital.</em></h2><p>Kartu akan tersedia setelah pendaftaran berhasil. Klik kartu untuk melihat sisi belakang.</p></div>
+      <div class="member-area" id="memberArea"><div class="empty-card"><span>✿</span><h3>Belum ada kartu anggota</h3><p>Lengkapi pendaftaran untuk membuat kartu digital pertamamu.</p><a class="btn btn-primary" href="#daftar">Isi formulir</a></div></div>
+    </section>
+
+    <section class="cta-section wrap"><div><span class="eyebrow">YOUR STORY STARTS HERE</span><h2>Jangan cuma melihat.<br><em>Jadilah bagian dari cerita.</em></h2><p>Temukan komunitasmu dan mulai berkembang bersama.</p></div><a class="btn btn-light" href="#daftar">Daftar sekarang <span>↗</span></a><span class="cta-flower">✿</span></section>
+
+    <section class="section section-soft" id="admin">
+      <div class="wrap admin-entry">
+        <div><span class="eyebrow">AREA PENGELOLA</span><h2>Dashboard <em>Admin.</em></h2><p>Kelola data demo pendaftaran yang tersimpan pada browser ini.</p></div>
+        <form class="admin-login" id="adminLogin"><label class="field">Username<input id="adminUser" value="admin" autocomplete="username" required></label><label class="field">Password<input id="adminPass" type="password" placeholder="Masukkan password demo" autocomplete="current-password" required></label><button class="btn btn-primary" type="submit">Masuk dashboard</button><small>Demo lokal: username <b>admin</b>, password <b>ekskulhub123</b>. Ganti sebelum demonstrasi. Bukan keamanan produksi.</small></form>
+      </div>
+      <div class="wrap dashboard-wrap hidden" id="dashboard">
+        <div class="dashboard-top"><div><span class="eyebrow">ADMIN PANEL</span><h2>Ringkasan <em>pendaftaran.</em></h2></div><button class="btn btn-outline" id="adminLogout">Keluar</button></div>
+        <div class="dashboard-stats" id="dashboardStats"></div>
+        <div class="dashboard-toolbar"><h3>Data anggota</h3><div><input id="memberSearch" placeholder="Cari nama / email..." aria-label="Cari anggota"><select id="memberFilter" aria-label="Filter ekstrakurikuler"><option value="">Semua ekstrakurikuler</option></select></div></div>
+        <div class="table-scroll"><table class="member-table"><thead><tr><th>Anggota</th><th>Kelas</th><th>Ekstrakurikuler</th><th>Nomor anggota</th><th>Aksi</th></tr></thead><tbody id="memberTableBody"></tbody></table></div>
+        <div class="dashboard-toolbar"><h3>Pengaturan ekstrakurikuler</h3><span class="muted">Data contoh dapat diedit.</span></div>
+        <div class="club-admin-list" id="clubAdminList"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-main"><div class="brand footer-brand"><span class="brand-mark">✿</span><span><b>Ekskul</b><strong>Hub</strong><small>SMA 1 PRESTASI BANGSA</small></span></div><p>Temukan minat. Kembangkan bakat.<br>Ciptakan cerita yang berarti.</p><div class="footer-links"><a href="#home">Beranda</a><a href="#ekskul">Ekstrakurikuler</a><a href="#daftar">Pendaftaran</a><a href="#admin">Admin</a></div></div><div class="wrap footer-bottom"><span>© <span id="year"></span> EkskulHub · SMA 1 Prestasi Bangsa</span><span>Dibuat untuk ruang tumbuh dan berkarya ♡</span></div></footer>
+
+  <button class="casper-launcher" id="chatLauncher" aria-label="Buka chatbot Casper"><span class="casper-face">☁</span><i></i></button>
+  <section class="chat-panel hidden" id="chatPanel" aria-label="Chatbot Casper">
+    <div class="chat-head"><div class="chat-avatar">☁</div><div><b>Casper</b><small>Asisten EkskulHub · siap membantu</small></div><button class="icon-btn" id="newChat" title="Percakapan baru">↻</button><button class="icon-btn" id="closeChat" aria-label="Tutup chatbot">×</button></div>
+    <div class="chat-messages" id="chatMessages"><div class="chat-bubble bot">Hai! Aku Casper, teman eksplorasi EkskulHub. Ada yang ingin kamu ketahui? ✿</div></div>
+    <div class="quick-questions"><button data-question="Apa saja ekstrakurikulernya?">Daftar ekskul</button><button data-question="Bagaimana cara mendaftar?">Cara daftar</button><button data-question="Apa itu kartu anggota?">Kartu anggota</button></div>
+    <form class="chat-input" id="chatForm"><input id="chatInput" placeholder="Tulis pesan..." autocomplete="off" aria-label="Pesan untuk Casper"><button aria-label="Kirim pesan">➤</button></form>
+  </section>
+
+  <div class="modal-backdrop hidden" id="clubModal"><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Tutup">×</button><div id="modalContent"></div></section></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="./js/script.js?v=2" defer></script>
+</body>
+</html>
